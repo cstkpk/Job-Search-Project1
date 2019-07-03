@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Search</title>
+
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <!-- Materialize.css links -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style2.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  
+
+  <!-- Optimize website for mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body>
+
+<!-- Navbar -->
+  <nav class="grey darken-4 z-depth-3 header-custom" role="navigation">
+    <div class="nav-wrapper container">
+      <a href="#" class="brand-logo">Job Search Pro</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">Search</a></li>
+        <li><a href="index2.html">Results</a></li>
+        <li><a href="index3.html">Favorites</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="index.html">Search</a></li>
+    <li><a href="index2.html">Results</a></li>
+    <li><a href="index3.html˙">Favorites</a></li>
+  </ul>
+
+<!-- Main content -->
+  <div class="container main-content">
+
+    <!-- Input form -->
+    <div class="row z-depth-3 form-custom">
+        <form class="col s12">
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="keyword" type="text" class="validate">
+                    <label for="keyword">Type your keyword here</label>
+                </div>
+            </div>
+            <button id="submit" class="btn waves-effect waves-light grey darken-2" type="submit" name="action">Submit
+                <i class="material-icons right">send</i>
+            </button>
+        </form>
+    </div>
+
+
+    <div id="test"></div>
+
+
+    <!-- Modal -->  
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <h4>Hey there!</h4>
+            <p>Please fill out all fields to continue.</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close btn orange lighten-1 white-text">Close</a>
+        </div>
+    </div>
+
+  </div>
+
+<!-- Footer -->
+  <footer class="page-footer orange footer-css">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Revitalizing the Job Search</h5>
+          <p class="grey-text text-lighten-4">We are a team of students working on this project because we know how stressful the job hunt can be. With this tool, we hope to make the process a little bit easier.</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Information</h5>
+          <ul>
+            <li><a class="white-text" href="https://en.wikipedia.org/wiki/Goat" target="_blank">Mystery Link 1</a></li>
+            <li><a class="white-text" href="https://en.wikipedia.org/wiki/Saiga_antelope" target="_blank">Mystery Link 2</a></li>
+            <li><a class="white-text" href="https://en.wikipedia.org/wiki/Okapi" target="_blank">Mystery Link 3</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="https://en.wikipedia.org/wiki/Homing_pigeon" target="_blank">Carrier Pigeon</a></li>
+            <li><a class="white-text" href="https://en.wikipedia.org/wiki/Tin_can_telephone" target="_blank">Tin Can</a></li>
+            <li><a class="white-text" href="https://en.wikipedia.org/wiki/Morse_code" target="_blank">Morse Code</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        Made by <a class="orange-text text-lighten-3" href="#">CASK</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="assets/javascript/app.js"></script>
+  <script src="assets/javascript/appmain2.js"></script>
+  <!-- This is the downloaded materialize js file *** their web version doesn't work -->
+  <script type="text/javascript" src="assets/javascript/materialize.min.js"></script>
+  <script src="https://apis.google.com/js/client.js?onload=init"></script>
+</body>
+
+
+
+</html>
+ 

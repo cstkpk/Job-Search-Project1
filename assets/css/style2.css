@@ -1,0 +1,85 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url("images/red-gradient.jpg");
+    background-size: cover;
+}
+
+/* Styling the layout of the general cards */
+.card-custom {
+    background: rgba(255, 255, 255, 0.75);
+}
+ /* Adding a max-heigh and scroll to the section of the job card that contains the results */
+.job-container {
+    max-height: 500px;
+    overflow: scroll;
+}
+
+/* Styling the individual cards that the job results display on */
+.job-card-custom {
+    line-height: 1.5;
+    padding: 10px;
+}
+
+/* Styling the wikipedia results card so that the card has a max height and scrolls when results are displayed */
+.wiki-container {
+    max-height: 500px;
+    overflow: scroll; 
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.wiki-url {
+    padding: 5px;
+    margin-left: -23px;
+}
+
+.form-custom {
+    background: rgba(255, 255, 255, 0.75);
+    padding: 15px 5px;
+    margin-top: 10px;
+}
+
+iframe {
+    display: block;
+    /* display: inline-block; */
+    margin: 0 auto;
+}
+
+.yt1 {
+    /* margin-left: 10px;
+    float: left; */
+    margin-bottom: 10px;
+}
+
+.yt2 {
+    /* margin-right: 10px;
+    float: right; */
+    margin-top: 10px;
+}
+
+.header-custom {
+    margin-bottom: 10px;
+}
+
+.wiki-container {
+    font-family: “Linux Libertine, Georgia, Times, serif”;
+}
+
+.wiki-url:hover {
+    color: rgb(61, 61, 61) !important;
+}
+
+.main-content {
+    flex: 1 0 auto;
+}
+
+.footer-css {
+    flex-shrink: 0;
+}
+
+
